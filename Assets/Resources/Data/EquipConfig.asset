@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945e98299c3a97845ad63c07f8e9bc19, type: 3}
+  m_Name: EquipConfig
+  m_EditorClassIdentifier: 
+  list:
+  - ID: 1
+    Name: "\u6751\u597D\u5251"
+    Level: 1
+    HPMax: 0
+    HP: 0
+    MPMax: 0
+    MP: 0
+    Str: 5
+    Mag: 0
+    Def: 0
+    Cir: 0
+    CirEEfect: 0
+    ExpGen: 0
+    ExpMax: 0
+    MaxSpeed: 0
+    PrefabPath: 
+    ImagePath: Equips/VillageGoodSword
+    Description: "\u6751\u5B50\u91CC\u6700\u597D\u7684\u4E00\u628A\u5251"
+  - ID: 2
+    Name: "\u4E09\u9879\u4E4B\u529B"
+    Level: 1
+    HPMax: 33
+    HP: 33
+    MPMax: 33
+    MP: 33
+    Str: 33
+    Mag: 33
+    Def: 33
+    Cir: 3.3
+    CirEEfect: 33
+    ExpGen: 0
+    ExpMax: 0
+    MaxSpeed: 0
+    PrefabPath: 
+    ImagePath: Equips/ThreeForce
+    Description: "\u6563\u4EBA\u4E13\u6B66"

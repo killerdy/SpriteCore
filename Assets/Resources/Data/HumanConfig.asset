@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55def8cd6dc32c44fb8f9d29fda76a96, type: 3}
+  m_Name: HumanConfig
+  m_EditorClassIdentifier: 
+  list:
+  - ID: 0
+    Name: Gril
+    Level: 1
+    HPMax: 100
+    HP: 100
+    MPMax: 100
+    MP: 100
+    Str: 10
+    Mag: 5
+    Def: 0
+    Cir: 5
+    CirEEfect: 50
+    PerStr: 0
+    PerMag: 0
+    PerDamage: 0
+    exp: 0
+    ExpGen: 100
+    ExpMax: 100
+    MaxSpeed: 5
+    PrefabPath: Prefabs/Girl
+  - ID: 1
+    Name: Warrior
+    Level: 1
+    HPMax: 200
+    HP: 200
+    MPMax: 0
+    MP: 0
+    Str: 20
+    Mag: 0
+    Def: 10
+    Cir: 5
+    CirEEfect: 50
+    PerStr: 0
+    PerMag: 0
+    PerDamage: 0
+    exp: 0
+    ExpGen: 100
+    ExpMax: 100
+    MaxSpeed: 5
+    PrefabPath: Prefabs/Girl
+  - ID: 2
+    Name: Mage
+    Level: 1
+    HPMax: 80
+    HP: 80
+    MPMax: 120
+    MP: 120
+    Str: 5
+    Mag: 20
+    Def: 0
+    Cir: 5
+    CirEEfect: 50
+    PerStr: 0
+    PerMag: 0
+    PerDamage: 0
+    exp: 0
+    ExpGen: 100
+    ExpMax: 100
+    MaxSpeed: 5
+    PrefabPath: Prefabs/Girl

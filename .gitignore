@@ -1,0 +1,40 @@
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+Library/
+UserSettings/
+Recordings/
+Logs/
+*.zip
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+*.pidb
+*.meta
+*.lock
+*.tmp
+*.cache
+
+# ================= #
+# OS generated files #
+# ================= #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ================= #
+# Visual Studio files #
+# ================= #
+*.aps
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.[Cc]ache

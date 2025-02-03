@@ -1,0 +1,789 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|c:\\users\\day\\unity\\workspace\\spritecore\\assets\\scripts\\online\\playername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\online\\playername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\online\\networkclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\online\\networkclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\damagenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\instance\\damagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instance\\damagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\online\\persistobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\online\\persistobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\online\\homemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\online\\homemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D22D58E-C9A0-DFEF-5F27-FC5C5C2E6485}|Assembly-CSharp-Editor.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\editor\\prebuildactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D22D58E-C9A0-DFEF-5F27-FC5C5C2E6485}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\prebuildactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\canvas\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canvas\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\online\\onlineplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\online\\onlineplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\weapons\\gunak47.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapons\\gunak47.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\player\\girl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\girl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\actitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\actitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\panel\\settingpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panel\\settingpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\panel\\bagpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panel\\bagpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\panel\\characterpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panel\\characterpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\player\\actitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\actitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\data\\globeldatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\globeldatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\panel\\choosepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panel\\choosepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\data\\slotdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\slotdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\data\\equipconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\equipconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\data\\humanconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\humanconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\instance\\headupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instance\\headupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\panel\\basepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panel\\basepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\data\\bagmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\bagmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\equipments\\equipmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\equipments\\equipmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\data\\loadasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\loadasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\data\\enemyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\enemyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\player\\campmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\campmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D22D58E-C9A0-DFEF-5F27-FC5C5C2E6485}|Assembly-CSharp-Editor.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\editor\\excelreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D22D58E-C9A0-DFEF-5F27-FC5C5C2E6485}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\excelreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\panel\\mainpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panel\\mainpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\gameobjectpool\\pool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobjectpool\\pool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\instance\\enemygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instance\\enemygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\bullet\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\instance\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instance\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\instance\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instance\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\instance\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instance\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\bullet\\bulletyellow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet\\bulletyellow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\bullet\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\tile\\grasstilegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tile\\grasstilegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\weapons\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapons\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\instance\\cursormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instance\\cursormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\tile\\perlinnoisetilemapgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tile\\perlinnoisetilemapgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\instance\\skymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instance\\skymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DamageManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\DamageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\DamageManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\DamageManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Instance\\DamageManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywCEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T05:49:52.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerName.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\PlayerName.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Online\\PlayerName.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\PlayerName.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Online\\PlayerName.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T05:22:58.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BasePanel.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\BasePanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\BasePanel.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\BasePanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Panel\\BasePanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T10:35:06.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Girl.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Player\\Girl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Girl.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Player\\Girl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Girl.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAgwJMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T10:08:03.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeMenu.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\HomeMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Online\\HomeMenu.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\HomeMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Online\\HomeMenu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:59:39.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SettingPanel.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\SettingPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\SettingPanel.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\SettingPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Panel\\SettingPanel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T11:35:36.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CameraMove.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Canvas\\CameraMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Canvas\\CameraMove.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Canvas\\CameraMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Canvas\\CameraMove.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDAAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T08:15:06.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersistObject.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\PersistObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Online\\PersistObject.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\PersistObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Online\\PersistObject.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T17:43:33.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ActItem.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\ActItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ActItem.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\ActItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ActItem.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAswFQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T18:21:23.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GunAk47.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Weapons\\GunAk47.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\GunAk47.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Weapons\\GunAk47.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapons\\GunAk47.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:24:29.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DamageNumber.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\DamageNumber.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DamageNumber.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\DamageNumber.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DamageNumber.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:44:30.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NetWorkClient.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\NetWorkClient.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Online\\NetWorkClient.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\NetWorkClient.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Online\\NetWorkClient.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAowJUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T10:05:59.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PreBuildActions.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Editor\\PreBuildActions.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\PreBuildActions.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Editor\\PreBuildActions.cs",
+              "RelativeToolTip": "Assets\\Editor\\PreBuildActions.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T14:46:20.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SlotData.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\SlotData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SlotData.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\SlotData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\SlotData.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T09:36:45.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OnlinePlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\OnlinePlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Online\\OnlinePlayerController.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\OnlinePlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Online\\OnlinePlayerController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T13:35:35.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HeadUpManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\HeadUpManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\HeadUpManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\HeadUpManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Instance\\HeadUpManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T23:15:23.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BagPanel.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\BagPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\BagPanel.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\BagPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Panel\\BagPanel.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwEoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T07:46:02.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CharacterPanel.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\CharacterPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\CharacterPanel.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\CharacterPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Panel\\CharacterPanel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwDgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T16:50:58.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ActItemManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Player\\ActItemManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\ActItemManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Player\\ActItemManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\ActItemManager.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwGMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T08:24:28.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChoosePanel.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\ChoosePanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\ChoosePanel.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\ChoosePanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Panel\\ChoosePanel.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwEsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:18:56.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GlobelDataManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\GlobelDataManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\GlobelDataManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\GlobelDataManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\GlobelDataManager.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwF0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T19:45:49.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EquipConfig.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\EquipConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\EquipConfig.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\EquipConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\EquipConfig.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:21:28.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HumanConfig.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\HumanConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\HumanConfig.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\HumanConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\HumanConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:02:12.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoadAsset.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\LoadAsset.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\LoadAsset.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\LoadAsset.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\LoadAsset.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:56:01.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EquipManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Equipments\\EquipManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Equipments\\EquipManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Equipments\\EquipManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Equipments\\EquipManager.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T20:25:34.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BagManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\BagManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\BagManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\BagManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\BagManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T06:10:07.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EnemyConfig.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\EnemyConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\EnemyConfig.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\EnemyConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\EnemyConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T11:41:26.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Slime.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Slime.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Slime.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Slime.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Slime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T18:47:48.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Bullet\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet\\Bullet.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Bullet\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bullet\\Bullet.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:26:59.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MainPanel.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\MainPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\MainPanel.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\MainPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Panel\\MainPanel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T10:47:51.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CampManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Player\\CampManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\CampManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Player\\CampManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\CampManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:56:43.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ExcelReader.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Editor\\ExcelReader.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\ExcelReader.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Editor\\ExcelReader.cs",
+              "RelativeToolTip": "Assets\\Editor\\ExcelReader.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwE4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:56:48.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FireBall.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Bullet\\FireBall.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet\\FireBall.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Bullet\\FireBall.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bullet\\FireBall.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:10:48.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EnemyGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\EnemyGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\EnemyGenerator.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\EnemyGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Instance\\EnemyGenerator.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T16:04:30.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Pool.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\GameObjectPool\\Pool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObjectPool\\Pool.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\GameObjectPool\\Pool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameObjectPool\\Pool.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:46:16.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EnemyManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Enemy\\EnemyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Enemy\\EnemyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:37:06.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BulletYellow.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Bullet\\BulletYellow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet\\BulletYellow.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Bullet\\BulletYellow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bullet\\BulletYellow.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:20:51.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Tool.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\Tool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\Tool.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\Tool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Instance\\Tool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:13:11.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "WeaponManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\WeaponManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\WeaponManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\WeaponManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Instance\\WeaponManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:42:43.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Fish.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Fish.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fish.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Fish.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fish.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowFIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:55:32.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Utils.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Utils.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T19:29:50.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GrassTileGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Tile\\GrassTileGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tile\\GrassTileGenerator.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Tile\\GrassTileGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tile\\GrassTileGenerator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T03:59:26.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CursorManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\CursorManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\CursorManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\CursorManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Instance\\CursorManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:13:54.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:05:34.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Weapons\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\Weapon.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Weapons\\Weapon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapons\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:27:24.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PerlinNoiseTilemapGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Tile\\PerlinNoiseTilemapGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tile\\PerlinNoiseTilemapGenerator.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Tile\\PerlinNoiseTilemapGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tile\\PerlinNoiseTilemapGenerator.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA0wDwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T03:59:44.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SkyManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\SkyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\SkyManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\SkyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Instance\\SkyManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAywBAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:31:20.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DataManager.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\DataManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\DataManager.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\DataManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Instance\\DataManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:44:32.974Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
