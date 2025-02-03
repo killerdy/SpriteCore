@@ -17,7 +17,7 @@ Logs/
 *.lock
 *.tmp
 *.cache
-
+.vs*
 # ================= #
 # OS generated files #
 # ================= #
