@@ -13,7 +13,6 @@ Logs/
 *.sln
 *.userprefs
 *.pidb
-*.meta
 *.lock
 *.tmp
 *.cache
