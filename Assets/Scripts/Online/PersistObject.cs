@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 
 public class PersistObject : MonoBehaviour
@@ -38,12 +39,15 @@ public class PersistObject : MonoBehaviour
     public string RandomStringGenerator(int length)
     {
 
-        string s="";
+        //string s="";
+        StringBuilder sb=new StringBuilder();
         const string chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         for(int i = 0; i < length; i++)
         {
-            s += chars[Random.Range(0, chars.Length)];
+            sb.Append(chars[Random.Range(0, chars.Length)]);
+            //s += chars[Random.Range(0, chars.Length)];
         }
-        return s;
+        
+        return string.Intern(sb.ToString());
     }
 }

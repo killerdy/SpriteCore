@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|c:\\users\\day\\unity\\workspace\\spritecore\\assets\\scripts\\online\\playername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|c:\\users\\day\\unity\\workspace\\spritecore\\assets\\scripts\\instance\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instance\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|c:\\users\\day\\unity\\workspace\\spritecore\\assets\\scripts\\online\\persistobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\online\\persistobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\instance\\damagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instance\\damagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\online\\playername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\online\\playername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -13,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\damagenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\instance\\damagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instance\\damagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\online\\persistobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\online\\persistobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FBC4393-F92B-C1B9-40E0-40AA9D12A31A}|Assembly-CSharp.csproj|C:\\Users\\day\\unity\\workspace\\SpriteCore\\assets\\scripts\\online\\homemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -202,36 +206,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Singleton.cs",
+              "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\Singleton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\Singleton.cs",
+              "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\Singleton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Instance\\Singleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T04:00:42.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DamageManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\DamageManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\DamageManager.cs",
               "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\DamageManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Instance\\DamageManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAywCEAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T05:49:52.109Z"
+              "WhenOpened": "2025-02-03T05:49:52.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlayerName.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\PlayerName.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Online\\PlayerName.cs",
               "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\PlayerName.cs",
               "RelativeToolTip": "Assets\\Scripts\\Online\\PlayerName.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAABIwBUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T05:22:58.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T05:22:58.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "BasePanel.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\BasePanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\BasePanel.cs",
@@ -243,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Girl.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Player\\Girl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Girl.cs",
@@ -255,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HomeMenu.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\HomeMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Online\\HomeMenu.cs",
@@ -267,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SettingPanel.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\SettingPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\SettingPanel.cs",
@@ -279,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CameraMove.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Canvas\\CameraMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Canvas\\CameraMove.cs",
@@ -291,19 +308,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PersistObject.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\PersistObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Online\\PersistObject.cs",
               "ToolTip": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\PersistObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\Online\\PersistObject.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwCcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T17:43:33.584Z"
+              "WhenOpened": "2025-02-02T17:43:33.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ActItem.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\ActItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ActItem.cs",
@@ -315,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GunAk47.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Weapons\\GunAk47.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\GunAk47.cs",
@@ -327,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DamageNumber.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\DamageNumber.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DamageNumber.cs",
@@ -339,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "NetWorkClient.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\NetWorkClient.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Online\\NetWorkClient.cs",
@@ -351,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PreBuildActions.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Editor\\PreBuildActions.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\PreBuildActions.cs",
@@ -363,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "SlotData.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\SlotData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SlotData.cs",
@@ -375,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OnlinePlayerController.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Online\\OnlinePlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Online\\OnlinePlayerController.cs",
@@ -387,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "HeadUpManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\HeadUpManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\HeadUpManager.cs",
@@ -399,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "BagPanel.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\BagPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\BagPanel.cs",
@@ -411,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CharacterPanel.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\CharacterPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\CharacterPanel.cs",
@@ -423,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ActItemManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Player\\ActItemManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\ActItemManager.cs",
@@ -435,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ChoosePanel.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\ChoosePanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\ChoosePanel.cs",
@@ -447,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "GlobelDataManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\GlobelDataManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\GlobelDataManager.cs",
@@ -459,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "EquipConfig.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\EquipConfig.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\EquipConfig.cs",
@@ -471,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "HumanConfig.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\HumanConfig.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\HumanConfig.cs",
@@ -483,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "LoadAsset.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\LoadAsset.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\LoadAsset.cs",
@@ -495,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "EquipManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Equipments\\EquipManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Equipments\\EquipManager.cs",
@@ -507,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "BagManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\BagManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\BagManager.cs",
@@ -519,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "EnemyConfig.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Data\\EnemyConfig.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\EnemyConfig.cs",
@@ -531,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Slime.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Slime.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Slime.cs",
@@ -543,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Bullet\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet\\Bullet.cs",
@@ -555,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "MainPanel.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Panel\\MainPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Panel\\MainPanel.cs",
@@ -567,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CampManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Player\\CampManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\CampManager.cs",
@@ -579,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ExcelReader.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Editor\\ExcelReader.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\ExcelReader.cs",
@@ -591,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "FireBall.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Bullet\\FireBall.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet\\FireBall.cs",
@@ -603,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "EnemyGenerator.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\EnemyGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\EnemyGenerator.cs",
@@ -615,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Pool.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\GameObjectPool\\Pool.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameObjectPool\\Pool.cs",
@@ -627,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Enemy\\EnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyManager.cs",
@@ -639,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "BulletYellow.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Bullet\\BulletYellow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet\\BulletYellow.cs",
@@ -651,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Tool.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\Tool.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\Tool.cs",
@@ -663,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "WeaponManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\WeaponManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\WeaponManager.cs",
@@ -675,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Fish.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Fish.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fish.cs",
@@ -687,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Utils.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Utils.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils.cs",
@@ -699,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "GrassTileGenerator.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Tile\\GrassTileGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tile\\GrassTileGenerator.cs",
@@ -711,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "CursorManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\CursorManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\CursorManager.cs",
@@ -723,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -735,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Weapons\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\Weapon.cs",
@@ -747,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "PerlinNoiseTilemapGenerator.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Tile\\PerlinNoiseTilemapGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tile\\PerlinNoiseTilemapGenerator.cs",
@@ -759,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "SkyManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\SkyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\SkyManager.cs",
@@ -771,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "DataManager.cs",
               "DocumentMoniker": "C:\\Users\\day\\unity\\workspace\\SpriteCore\\Assets\\Scripts\\Instance\\DataManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Instance\\DataManager.cs",
