@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - ID: 0
-    Name: Gril
+    Name: Girl
     Level: 1
     HPMax: 100
     HP: 100
@@ -73,3 +73,43 @@ MonoBehaviour:
     ExpMax: 100
     MaxSpeed: 5
     PrefabPath: Prefabs/Girl
+  - ID: 3
+    Name: Slime
+    Level: 1
+    HPMax: 50
+    HP: 50
+    MPMax: 50
+    MP: 50
+    Str: 5
+    Mag: 5
+    Def: 0
+    Cir: 5
+    CirEEfect: 50
+    PerStr: 0
+    PerMag: 0
+    PerDamage: 0
+    exp: 0
+    ExpGen: 5
+    ExpMax: 100
+    MaxSpeed: 3
+    PrefabPath: Prefabs/SlimeController
+  - ID: 4
+    Name: Goblin
+    Level: 1
+    HPMax: 100
+    HP: 100
+    MPMax: 100
+    MP: 100
+    Str: 10
+    Mag: 10
+    Def: 0
+    Cir: 5
+    CirEEfect: 50
+    PerStr: 0
+    PerMag: 0
+    PerDamage: 0
+    exp: 0
+    ExpGen: 10
+    ExpMax: 100
+    MaxSpeed: 4
+    PrefabPath: Prefabs/GoblinController

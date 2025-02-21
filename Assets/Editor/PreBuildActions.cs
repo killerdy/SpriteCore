@@ -40,6 +40,7 @@ using UnityEngine;
 
 class MyCustomBuildProcessor : IPreprocessBuildWithReport
 {
+    //Debug
     public int callbackOrder { get { return 0; } }
     public void OnPreprocessBuild(BuildReport report)
     {

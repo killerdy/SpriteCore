@@ -79,6 +79,7 @@ public class EquipManager : MonoBehaviour
         actItem.str += equip.Str;
         actItem.mag += equip.Mag;
         actItem.HPMax += equip.HPMax;
+        //actItem.HP += equip.HP;
         actItem.Cir += equip.Cir;
         actItem.CirEffect += equip.CirEEfect;
 
@@ -93,6 +94,7 @@ public class EquipManager : MonoBehaviour
         actItem.str -= equip.Str;
         actItem.mag -= equip.Mag;
         actItem.HPMax -= equip.HPMax;
+        //actItem.HP -= equip.HP;
         actItem.Cir -= equip.Cir;
         actItem.CirEffect -= equip.CirEEfect;
 

@@ -187,7 +187,7 @@ public class ExcelReader
                         Description = worksheet.Cells[i, 22].Value?.ToString(), 
                     });
                 }
-                Debug.Log(config.list);
+                Debug.Log(config.list+"dy");
                 if (!Directory.Exists(assetPath))
                 {
                     Directory.CreateDirectory(assetPath);

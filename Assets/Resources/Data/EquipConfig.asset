@@ -49,3 +49,21 @@ MonoBehaviour:
     PrefabPath: 
     ImagePath: Equips/ThreeForce
     Description: "\u6563\u4EBA\u4E13\u6B66"
+  - ID: 3
+    Name: "\u94C1\u8D28\u94E0\u7532"
+    Level: 1
+    HPMax: 100
+    HP: 100
+    MPMax: 0
+    MP: 0
+    Str: 0
+    Mag: 0
+    Def: 10
+    Cir: 0
+    CirEEfect: 0
+    ExpGen: 0
+    ExpMax: 0
+    MaxSpeed: 0
+    PrefabPath: 
+    ImagePath: Equips/ironArmor
+    Description: "\u94C1\u8D28\u7684\u94E0\u7532"

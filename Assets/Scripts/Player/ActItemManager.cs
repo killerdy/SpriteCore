@@ -57,6 +57,7 @@ public class ActItemManager : MonoBehaviour
         AttachHuman(id);
         GameObject go = Instantiate(Resources.Load<GameObject>(GlobelDataManager.instance.human[id].PrefabPath));
         go.GetComponent<ActItem>().Init(GlobelDataManager.instance.human[id]);
+        go.SetActive(false);
         humans.Add(id, go);
         if (PlayerManager.instance.players.Contains(id))
             PlayerManager.instance.playerList.Add(id);

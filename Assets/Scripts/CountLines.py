@@ -25,8 +25,8 @@ def count_cs_lines(directory):
                     with open(filepath, 'r', encoding=encoding) as f:
                         for line in f:
                             # 去除行首尾的空白字符，并跳过空行和注释行
-                            stripped_line = line.strip()
-                            if stripped_line and not stripped_line.startswith("//"):
+                            # stripped_line = line.strip()
+                            # if stripped_line and not stripped_line.startswith("//"):
                                 total_lines += 1
                 except UnicodeDecodeError:
                     print(f"无法解码文件: {filepath}, 跳过")

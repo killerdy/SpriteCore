@@ -110,9 +110,6 @@ public class Girl : ActItem
     }
     public override void AttackE()
     {
-        
-        
-        
         float scale = Mathf.Max(readyTimeE * 2,1);
         isReadyTimeE = false;
         readyTimeE = 0;
@@ -127,7 +124,6 @@ public class Girl : ActItem
         go.transform.localScale = new Vector3(scale, scale, scale);
         if(DataManager.instance.weaponIndex%3==1)
         go.transform.GetComponent<FireBall>().color = new Color(1f,0.4f,0.71f);
-        
     }
     void ReadyReset()
     {

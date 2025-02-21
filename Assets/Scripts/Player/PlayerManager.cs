@@ -21,6 +21,7 @@ public class PlayerManager : MonoBehaviour
         maincamera = Camera.main;
     
         ChangePlayer(GameObject.Find("Girl").GetComponent<ActItem>());
+        //NextPlayer();
         targetPosion = player.transform.position;
     }
     // Update is called once per frame
@@ -34,8 +35,13 @@ public class PlayerManager : MonoBehaviour
         
         playerId=(++playerId)%playerList.Count;
         //Debug.Log(playerId);
+        Vector3 oldPosion = player.transform.position;
+        player.gameObject.SetActive(false);
         player = ActItemManager.instance.humans[playerList[playerId]].GetComponent<ActItem>();
-        player.transform.position = targetPosion;
+        player.gameObject.SetActive(true);
+        //player.transform.position = targetPosion;
+        player.transform.position = oldPosion;
+        player.GetComponent<Animator>().Rebind();
 
         HeadUpManager.instance.ChangePlayer();
         CharacterPanel.instance.ClearEquip();
@@ -45,8 +51,13 @@ public class PlayerManager : MonoBehaviour
     public void PrePlayer()
     {
         playerId = (--playerId+ playerList.Count) % playerList.Count;
-        player = ActItemManager.instance.humans[playerId].GetComponent<ActItem>();
-        player.transform.position = targetPosion;
+        Vector3 oldPosion = player.transform.position;
+        player.gameObject.SetActive(false);
+        player = ActItemManager.instance.humans[playerList[playerId]].GetComponent<ActItem>();
+        player.gameObject.SetActive(true);
+        //player.transform.position = targetPosion;
+        player.transform.position = oldPosion;
+        player.GetComponent<Animator>().Rebind();
 
         HeadUpManager.instance.ChangePlayer();
         CharacterPanel.instance.ClearEquip();

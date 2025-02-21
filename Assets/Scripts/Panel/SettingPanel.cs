@@ -9,9 +9,9 @@ using UnityEngine.UI;
 public class SettingPanel : BasePanel
 {
     // Start is called before the first frame update
-    
     GridLayoutGroup grid;
-    private string[] str = { "退出游戏", "保存游戏","载入游戏" ,"回到主页"};
+    private string[] str = { "退出游戏", "保存游戏","载入游戏" ,"回到主页","开发者模式"};
+    
     List<GameObject>  go = new List<GameObject>();
     List<Button> buttons = new List<Button>();
     void Start()
@@ -46,13 +46,13 @@ public class SettingPanel : BasePanel
             buttons[3].onClick.AddListener(() => {
                 SceneManager.LoadScene("Home");
             });
+            buttons[4].onClick.AddListener(() =>
+            {
+                Tool.instance.isDeveloperMode=!Tool.instance.isDeveloperMode;
+            });
         }));
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
