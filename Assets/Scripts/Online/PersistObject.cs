@@ -8,8 +8,8 @@ public class PersistObject : MonoBehaviour
     // Start is called before the first frame update
     public static PersistObject instance;
 
-    public string IP = "106.14.3.139", Name;
-    public int Port= 8888;
+    public string IP = "10.11.10.11", Name;
+    public int Port= 4000;
     private void Awake()
     {
         

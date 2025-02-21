@@ -13,17 +13,17 @@ public class NetWorkClient : MonoBehaviour
     private TcpClient client;
     private NetworkStream stream;
     private Thread receiveThread;
-    private string serverIP= "106.14.3.139";
-    private int serverPort= 8888;
+    private string serverIP = "10.11.10.11";
+    private int serverPort = 4000;
     private bool isConnected = false;
 
     public float moveInterval = 0.2f;
     public float moveTime;
     public struct GameState
     {
-       public string playerName;
-       public float x;
-       public float y;
+        public string playerName;
+        public float x;
+        public float y;
     }
     public struct PlayerState
     {
@@ -34,13 +34,13 @@ public class NetWorkClient : MonoBehaviour
         public int horizontal;
         public int vertical;
     }
-    public Dictionary<string,GameState> gameState = new Dictionary<string, GameState>();
+    public Dictionary<string, GameState> gameState = new Dictionary<string, GameState>();
     //public  List<string> playerState = new List<string>();
-  
+
 
     public GameObject playerPrefab;
     private Dictionary<string, GameObject> players = new Dictionary<string, GameObject>();
-    private Dictionary<string,GameObject> playerNames=new Dictionary<string, GameObject>();
+    private Dictionary<string, GameObject> playerNames = new Dictionary<string, GameObject>();
     public bool flag;
     private void Awake()
     {
@@ -49,7 +49,7 @@ public class NetWorkClient : MonoBehaviour
             serverIP = PersistObject.instance.IP;
             serverPort = PersistObject.instance.Port;
         }
-        
+
         //instance = this;
     }
     void Start()
@@ -77,7 +77,7 @@ public class NetWorkClient : MonoBehaviour
             isConnected = true;
             Debug.Log("Connected to server!");
             //HandleInput();
-            SendInput(new InputState { horizontal=0,vertical=0});
+            SendInput(new InputState { horizontal = 0, vertical = 0 });
             receiveThread = new Thread(new ThreadStart(ReceiveData));
             receiveThread.Start();
         }
@@ -117,16 +117,34 @@ public class NetWorkClient : MonoBehaviour
     }
     void UpdateGameState(string json)
     {
+        //Debug.Log(json);
         try
         {
-            gameState = JsonConvert.DeserializeObject<Dictionary<string, GameState>>(json);
+            //Debug.Log(json);
+            //List<string> jsonObjects = new List<string>();
+            int braceCount = 0;
+            int startIndex = 0;
+            for (int i = 0; i < json.Length; i++)
+            {
+                if (json[i] == '{')
+                    braceCount++;
+                else if (json[i] == '}')
+                    braceCount--;
+                if (braceCount == 0)
+                {
+                    string jsonObject = json.Substring(startIndex, i - startIndex + 1);
+                    gameState = JsonConvert.DeserializeObject<Dictionary<string, GameState>>(jsonObject);
+                    startIndex = i + 1;
+                }
+            }
+            //gameState = JsonConvert.DeserializeObject<Dictionary<string, GameState>>(json);
         }
         catch (JsonSerializationException e)
         {
             Debug.Log("Error parsing json: " + e.Message);
         }
     }
-    public  void UpdateGameState()
+    public void UpdateGameState()
     {
         if (!flag) return;
         foreach (var entry in gameState)
@@ -138,7 +156,7 @@ public class NetWorkClient : MonoBehaviour
             if (!players.ContainsKey(address))
             {
                 GameObject newPlayer = Instantiate(playerPrefab);
-                newPlayer.transform.position = new Vector3(x,y,0);
+                newPlayer.transform.position = new Vector3(x, y, 0);
                 players[address] = newPlayer;
                 Debug.Log("Create new player" + address);
                 GameObject newName = Instantiate(Resources.Load<GameObject>("Online/PlayerName"));
@@ -146,20 +164,20 @@ public class NetWorkClient : MonoBehaviour
                 //newName.GetComponent<PlayerName>().playerName = playerName;
                 //newName.GetComponent<TextMeshProUGUI>().text = playerName;
                 playerNames[address] = newName;
-                
+
             }
             //更新玩家的位置和状态
             GameObject player = players[address];
-            GameObject playerNameObject=playerNames[address];
-            if(playerNameObject!=null&& playerNameObject.GetComponent<TextMeshProUGUI>().text!=playerName)
-                playerNameObject.GetComponent<TextMeshProUGUI>().text = playerName; 
+            GameObject playerNameObject = playerNames[address];
+            if (playerNameObject != null && playerNameObject.GetComponent<TextMeshProUGUI>().text != playerName)
+                playerNameObject.GetComponent<TextMeshProUGUI>().text = playerName;
             if (player != null)
             {
-                
+
                 OnlinePlayerController controller = player.GetComponent<OnlinePlayerController>();
-                
+
                 //if (controller.isMove) return;
-                controller.startPosition=player.transform.position;
+                controller.startPosition = player.transform.position;
                 controller.endPosition = new Vector3(x, y, 0);
                 controller.AddMove();
                 //Vector3 startPosition= player.transform.position;
@@ -168,22 +186,22 @@ public class NetWorkClient : MonoBehaviour
             }
         }
 
-        if(gameState.Count!=players.Count)
+        if (gameState.Count != players.Count)
         {
-            List<string> keyToRemove= new List<string>();
-            foreach(var entry in players)
+            List<string> keyToRemove = new List<string>();
+            foreach (var entry in players)
             {
                 if (!gameState.ContainsKey(entry.Key))
                     keyToRemove.Add(entry.Key);
             }
-            foreach(string key in keyToRemove)
+            foreach (string key in keyToRemove)
             {
-                if (players[key]!=null)
+                if (players[key] != null)
                     Destroy(players[key]);
-                if (playerNames[key]!=null) 
+                if (playerNames[key] != null)
                     Destroy(playerNames[key]);
                 players.Remove(key);
-                playerNames.Remove(key);    
+                playerNames.Remove(key);
             }
             //foreach(var entry in gameState)
             //{
@@ -225,7 +243,7 @@ public class NetWorkClient : MonoBehaviour
             horizontal = 1;
         }
         if (vertical == 0 && horizontal == 0) return;
-        SendInput(new InputState { horizontal=horizontal,vertical=vertical});
+        SendInput(new InputState { horizontal = horizontal, vertical = vertical });
         //inputData["horizontal"] = horizontal;
         //inputData["vertical"] = vertical;
         //string jsonInput = JsonConvert.SerializeObject(inputData);
@@ -242,11 +260,11 @@ public class NetWorkClient : MonoBehaviour
     }
     void SendNewName()
     {
-        if(PersistObject.instance != null)
+        if (PersistObject.instance != null)
         {
-            string jsonInput = JsonConvert.SerializeObject(new PlayerState { playerName= PersistObject.instance.Name });
+            string jsonInput = JsonConvert.SerializeObject(new PlayerState { playerName = PersistObject.instance.Name });
             byte[] data = Encoding.UTF8.GetBytes(jsonInput);
-            stream.Write(data, 0, data.Length); 
+            stream.Write(data, 0, data.Length);
         }
     }
     void SendInput(InputState inputState)
